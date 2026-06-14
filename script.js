@@ -13,7 +13,7 @@ const projects = [
     id: 'osense-cis',
     title: 'osense CIS',
     titleEn: 'osense Corporate Identity System',
-    categories: ['brand', 'ui'],
+    categories: ['brand'],
     categoryLabel: 'Brand Identity',
     tool: 'Adobe Illustrator',
     cover: 'images/osense-cis-1.png',
