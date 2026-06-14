@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ariel Wu — Multidisciplinary Designer | Motion Design, Graphic Design, Brand Visual, UI Design">
+  <title>Ariel Wu — Multidisciplinary Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ────────────────────────────────── -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">ARIEL<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about"   class="nav-link">About</a>
+        <a href="#works"   class="nav-link">Works</a>
+        <a href="#ai"      class="nav-link">AI Tools</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="#about"   class="nav-mobile-link">About</a>
+      <a href="#works"   class="nav-mobile-link">Works</a>
+      <a href="#ai"      class="nav-mobile-link">AI Tools</a>
+      <a href="#contact" class="nav-mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-label">Multidisciplinary Designer</div>
+      <h1 class="hero-name">Hi, I'm<br><strong>Ariel Wu</strong></h1>
+      <div class="hero-badge">吳俊璇</div>
+      <p class="hero-roles">Motion Design · Graphic Design · Brand Visual · UI Design</p>
+      <div class="hero-cta">
+        <a href="#works"   class="btn btn-yellow">View Works</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <img src="images/profile.jpg" alt="Ariel Wu" class="hero-photo">
+      <div class="hero-photo-deco"></div>
+    </div>
+  </section>
+
+  <!-- ── About ─────────────────────────────────────── -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-photo-col reveal">
+          <div class="about-photo-wrap">
+            <img src="images/profile.jpg" alt="Ariel Wu" class="about-photo">
+            <div class="about-photo-accent"></div>
+          </div>
+        </div>
+        <div class="about-text-col reveal">
+          <div class="about-who">who am i</div>
+          <h2 class="about-hello">Hello<span class="dot-yellow">.</span></h2>
+          <div class="lang-toggle">
+            <button class="lang-btn active" data-lang="zh">中文</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+          <div class="bio bio-zh active">
+            <p>您好，我是吳俊璇（Ariel Wu），擁有 6 年以上視覺設計、動態影像與數位內容製作經驗，熟悉品牌視覺、平面設計、影片製作與 UI 介面設計，能將品牌理念轉化為具一致性與吸引力的視覺體驗。</p>
+            <p>過去曾參與 AI SaaS 產品開發，負責資訊架構規劃、Wireframe、UI Design、產品測試與設計系統建置，同時具備多年廣告、動態設計與品牌視覺製作經驗，熟悉從概念發想、視覺設計到實際落地的完整流程。</p>
+            <p>除了設計能力外，我也具備良好的跨部門溝通經驗，能主動梳理需求、優化流程並推動專案執行。</p>
+          </div>
+          <div class="bio bio-en">
+            <p>Hello, my name is Ariel. A multidisciplinary designer with 6+ years of experience in visual design, motion graphics, digital content production, and UI design. Skilled at translating brand values into compelling visual experiences across multiple platforms.</p>
+            <p>I have contributed to AI SaaS product development, including information architecture planning, wireframing, UI design, user testing, and design system creation. My background spans brand visuals, advertising, motion design, and digital product design.</p>
+            <p>With strong cross-functional collaboration skills and a proactive problem-solving mindset, I enjoy transforming complex requirements into clear visual solutions.</p>
+          </div>
+          <div class="about-info-row">
+            <div class="info-chip"><span class="chip-label">Based in</span><span>Taipei, Taiwan</span></div>
+            <div class="info-chip"><span class="chip-label">Experience</span><span>6+ Years</span></div>
+            <div class="info-chip"><span class="chip-label">Email</span><a href="mailto:arielzp1229@gmail.com">arielzp1229@gmail.com</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Expertise Marquee ──────────────────────────── -->
+  <div class="marquee-section" aria-label="Skills">
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <div class="marquee-inner">
+          <span>Brand Identity</span><em>·</em>
+          <span>Typography &amp; Layout</span><em>·</em>
+          <span>Graphic Design</span><em>·</em>
+          <span>Marketing Visuals</span><em>·</em>
+          <span>Social Media Design</span><em>·</em>
+          <span>Presentation Design</span><em>·</em>
+          <span>Merchandise Design</span><em>·</em>
+          <span>UI Design System</span><em>·</em>
+          <span>AI Tool 應用</span><em>·</em>
+          <span>跨部門合作</span><em>·</em>
+        </div>
+        <div class="marquee-inner" aria-hidden="true">
+          <span>Brand Identity</span><em>·</em>
+          <span>Typography &amp; Layout</span><em>·</em>
+          <span>Graphic Design</span><em>·</em>
+          <span>Marketing Visuals</span><em>·</em>
+          <span>Social Media Design</span><em>·</em>
+          <span>Presentation Design</span><em>·</em>
+          <span>Merchandise Design</span><em>·</em>
+          <span>UI Design System</span><em>·</em>
+          <span>AI Tool 應用</span><em>·</em>
+          <span>跨部門合作</span><em>·</em>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Works ─────────────────────────────────────── -->
+  <section class="works" id="works">
+    <div class="container">
+      <div class="works-header reveal">
+        <p class="section-eyebrow">awesome projects</p>
+        <h2 class="works-title">MY WORK<span class="dot-yellow">.</span></h2>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">ALL</button>
+          <button class="filter-btn" data-filter="brand">BRAND</button>
+          <button class="filter-btn" data-filter="graphic">GRAPHIC</button>
+          <button class="filter-btn" data-filter="motion">VIDEO</button>
+          <button class="filter-btn" data-filter="ui">UI DESIGN</button>
+        </div>
+      </div>
+      <div class="works-grid" id="worksGrid"></div>
+      <div class="load-more-wrap" id="loadMoreWrap">
+        <button class="btn-load-more" id="loadMoreBtn">LOAD MORE</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── AI Tools ──────────────────────────────────── -->
+  <section class="ai-section" id="ai">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-eyebrow">design efficiency</p>
+        <h2 class="section-h2">AI Tool<span class="dot-yellow"> 應用</span></h2>
+        <p class="section-sub">善用 AI 工具提升設計效率，結合人工智慧與創意思維，打造更快速且具創新的設計流程。</p>
+      </div>
+      <div class="ai-grid reveal">
+        <div class="ai-card">
+          <div class="ai-card-icon">⌨</div>
+          <h3>Claude Code</h3>
+          <p class="ai-tag">Web Development · Automation</p>
+          <p>運用 Claude Code 進行網頁開發與 Remotion 動畫製作，大幅縮短從設計稿到實際網頁的落地時間，並能快速迭代 UI 元件。</p>
+        </div>
+        <div class="ai-card">
+          <div class="ai-card-icon">⬡</div>
+          <h3>Google Stitch</h3>
+          <p class="ai-tag">UI Prototyping · Rapid Design</p>
+          <p>利用 Google Stitch 快速生成 UI Prototype 與設計靈感，加速需求討論與設計初稿確認流程，提升與客戶溝通效率。</p>
+        </div>
+        <div class="ai-card">
+          <div class="ai-card-icon">✦</div>
+          <h3>AI 圖像生成</h3>
+          <p class="ai-tag">Visual Creation · Brand Assets</p>
+          <p>結合 ComfyUI Image2 等 AI 圖像生成工具，輔助廣告影片素材製作與品牌視覺創作，將 AI 生成內容融入專業設計流程。</p>
+        </div>
+        <div class="ai-card">
+          <div class="ai-card-icon">▶</div>
+          <h3>AI 影片生成</h3>
+          <p class="ai-tag">Motion · Content Production</p>
+          <p>運用 Runway、Seedance2.0 等 AI 影片生成工具，結合 After Effects 動態設計，高效製作品牌形象影片與活動主視覺動態素材。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Tools ─────────────────────────────────────── -->
+  <section class="tools-section">
+    <div class="container">
+      <p class="section-eyebrow reveal">software</p>
+      <div class="tools-row reveal">
+        <div class="tool-chip">Adobe Illustrator</div>
+        <div class="tool-chip">Adobe Photoshop</div>
+        <div class="tool-chip">After Effects</div>
+        <div class="tool-chip">Premiere Pro</div>
+        <div class="tool-chip">Figma</div>
+        <div class="tool-chip">Claude Code</div>
+        <div class="tool-chip">Google Stitch</div>
+        <div class="tool-chip">HTML / CSS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ───────────────────────────────────── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <p class="section-eyebrow light">get in touch</p>
+        <h2 class="contact-title">CONTACT<span class="dot-yellow">.</span></h2>
+        <p class="contact-sub">有設計合作提案，歡迎與我聯繫。<br>Open to freelance and full-time opportunities.</p>
+        <a href="mailto:arielzp1229@gmail.com" class="contact-email">arielzp1229@gmail.com</a>
+        <div class="contact-meta">
+          <span>📞 0909-151-975</span>
+          <span>📍 Taipei, Taiwan</span>
+        </div>
+        <a href="mailto:arielzp1229@gmail.com" class="btn btn-yellow">Send Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">ARIEL<span class="dot-yellow">.</span></span>
+        <span>Ariel Wu / 吳俊璇 — Multidisciplinary Designer</span>
+        <span>© 2024 All Rights Reserved</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Modal ─────────────────────────────────────── -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-panel" id="modalPanel">
+      <button class="modal-close" id="modalClose" aria-label="Close">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <path d="M16 2L2 16M2 2L16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div class="modal-body">
+        <!-- Video (YouTube) -->
+        <div class="modal-video-wrap" id="modalVideoWrap">
+          <!-- embeddable iframe -->
+          <div class="modal-video-ratio" id="modalIframeWrap">
+            <iframe id="modalIframe" src="" title="Video" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <!-- non-embeddable: thumbnail + link -->
+          <div class="modal-yt-facade" id="modalYtFacade">
+            <img class="modal-yt-facade-img" id="modalYtFacadeImg" src="" alt="">
+            <a class="modal-yt-facade-btn" id="modalYtFacadeBtn" href="#" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+              在 YouTube 觀看
+            </a>
+          </div>
+          <div class="modal-video-footer">
+            <p class="modal-video-meta" id="modalVideoDur"></p>
+            <a class="modal-yt-link" id="modalYtLink" href="#" target="_blank" rel="noopener">在 YouTube 上觀看 ↗</a>
+          </div>
+        </div>
+        <!-- Images / Local Videos -->
+        <div class="modal-gallery-wrap" id="modalGalleryWrap">
+          <div class="modal-main-img-wrap">
+            <img class="modal-main-img" id="modalMainImg" src="" alt="" loading="lazy">
+            <video class="modal-main-video" id="modalMainVideo" controls playsinline preload="metadata">
+              <source id="modalMainVideoSrc" src="" type="video/mp4">
+            </video>
+            <div class="modal-placeholder-img" id="modalPlaceholderImg">
+              <span id="modalPlaceholderText"></span>
+            </div>
+            <button class="modal-nav modal-prev" id="modalPrev" aria-label="Prev">&#8592;</button>
+            <button class="modal-nav modal-next" id="modalNext" aria-label="Next">&#8594;</button>
+          </div>
+          <p class="modal-caption" id="modalCaption"></p>
+          <div class="modal-thumbs" id="modalThumbs"></div>
+        </div>
+        <!-- Info -->
+        <div class="modal-info">
+          <div class="modal-cat-tag" id="modalCatTag"></div>
+          <h3 class="modal-title-zh" id="modalTitleZh"></h3>
+          <p class="modal-title-en" id="modalTitleEn"></p>
+          <div class="modal-meta-row">
+            <span class="modal-meta-key">Tool</span>
+            <span id="modalTool"></span>
+          </div>
+          <hr class="modal-hr">
+          <p class="modal-concept" id="modalConcept"></p>
+          <div class="modal-sections" id="modalSections"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
