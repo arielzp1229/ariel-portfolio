@@ -35,41 +35,122 @@ const projects = [
     images: [{ src: 'images/fuguang-logo.jpg', caption: '以音波與光的概念進行設計，符合客戶想要的意象。' }],
     concept: '為一間音樂工作室進行 LOGO 設計，將聲音的流動性與光的穿透感融合，創造出兼具動態與優雅的品牌識別。'
   },
+  {
+    id: 'liveband-icon',
+    title: '聽團仔 APP Icon',
+    titleEn: 'Liveband APP Icon Design',
+    categories: ['brand'],
+    categoryLabel: 'Icon Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/brand-03.png',
+    images: [{ src: 'images/brand-03.png', caption: '聽團仔 APP icon，以耳機意象直觀呈現音樂主題。' }],
+    concept: '聽團仔 APP icon 設計，為 APP 打造適合的 icon，以耳機的意象呈現，直接明確讓人一目了然這是個與音樂相關的 APP。'
+  },
 
   /* ── Graphic Design ──────────────────────────────────────── */
   {
-    id: 'zodiac-cards',
-    title: '生肖新年賀卡系列',
-    titleEn: 'Chinese Zodiac New Year Card Series',
+    id: 'tiger-card',
+    title: '虎年新年賀卡',
+    titleEn: 'Year of Tiger New Year Card',
+    categories: ['graphic'],
+    categoryLabel: 'Graphic Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/tiger-card.jpg',
+    images: [{ src: 'images/tiger-card.jpg', caption: '虎年賀卡：以單色粗線條繪出老虎意象，結合貓伸懶腰動作。' }],
+    concept: '以十二生肖為創作主題，透過幾何化與角色化的視覺語言，重新詮釋傳統生肖文化。利用鮮明色彩與簡潔構圖，讓新年祝福以更年輕、現代且富有趣味的方式傳遞。'
+  },
+  {
+    id: 'rabbit-card',
+    title: '兔年新年賀卡',
+    titleEn: 'Year of Rabbit New Year Card',
+    categories: ['graphic'],
+    categoryLabel: 'Graphic Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/rabbit-card.jpg',
+    images: [{ src: 'images/rabbit-card.jpg', caption: '兔年賀卡：紅色系傳遞過年氛圍，兔子耳朵變成彩帶的意象。' }],
+    concept: '以十二生肖為創作主題，透過幾何化與角色化的視覺語言，重新詮釋傳統生肖文化。利用鮮明色彩與簡潔構圖，讓新年祝福以更年輕、現代且富有趣味的方式傳遞。'
+  },
+  {
+    id: 'dragon-card',
+    title: '龍年新年賀卡',
+    titleEn: 'Year of Dragon New Year Card',
     categories: ['graphic'],
     categoryLabel: 'Graphic Design',
     tool: 'Adobe Illustrator',
     cover: 'images/dragon-card-01.jpg',
     images: [
-      { src: 'images/tiger-card.jpg',     caption: '虎年賀卡：以單色粗線條繪出老虎意象，結合貓伸懶腰動作。' },
-      { src: 'images/rabbit-card.jpg',    caption: '兔年賀卡：紅色系傳遞過年氛圍，兔子耳朵變成彩帶的意象。' },
       { src: 'images/dragon-card-01.jpg', caption: '龍年賀卡（正面）：流動龍形線條與金黃配色。' },
-      { src: 'images/dragon-card-02.jpg', caption: '龍年賀卡（背面）：正背面設計的連接性讓人多一種驚喜。' },
-      { src: 'images/snake-card-01.jpg',  caption: '蛇年賀卡（正面）：童趣貪食蛇遊戲概念。' },
-      { src: 'images/snake-card-02.jpg',  caption: '蛇年賀卡（背面）：正背面設計連接性。' },
-      { src: 'images/horse-card.png',     caption: '馬年賀卡：近距離馬頭構圖與溫暖大地色系。' }
+      { src: 'images/dragon-card-02.jpg', caption: '龍年賀卡（背面）：正背面設計的連接性讓人多一種驚喜。' }
     ],
     concept: '以十二生肖為創作主題，透過幾何化與角色化的視覺語言，重新詮釋傳統生肖文化。利用鮮明色彩與簡潔構圖，讓新年祝福以更年輕、現代且富有趣味的方式傳遞。'
   },
   {
-    id: 'birthday-cards',
-    title: '生肖生日卡系列',
-    titleEn: 'Chinese Zodiac Birthday Card Series',
+    id: 'snake-card',
+    title: '蛇年新年賀卡',
+    titleEn: 'Year of Snake New Year Card',
+    categories: ['graphic'],
+    categoryLabel: 'Graphic Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/snake-card-01.jpg',
+    images: [
+      { src: 'images/snake-card-01.jpg', caption: '蛇年賀卡（正面）：童趣貪食蛇遊戲概念。' },
+      { src: 'images/snake-card-02.jpg', caption: '蛇年賀卡（背面）：正背面設計連接性。' }
+    ],
+    concept: '以十二生肖為創作主題，透過幾何化與角色化的視覺語言，重新詮釋傳統生肖文化。利用鮮明色彩與簡潔構圖，讓新年祝福以更年輕、現代且富有趣味的方式傳遞。'
+  },
+  {
+    id: 'horse-card',
+    title: '馬年新年賀卡',
+    titleEn: 'Year of Horse New Year Card',
+    categories: ['graphic'],
+    categoryLabel: 'Graphic Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/horse-card.png',
+    images: [{ src: 'images/horse-card.png', caption: '馬年賀卡：近距離馬頭構圖與溫暖大地色系。' }],
+    concept: '以十二生肖為創作主題，透過幾何化與角色化的視覺語言，重新詮釋傳統生肖文化。利用鮮明色彩與簡潔構圖，讓新年祝福以更年輕、現代且富有趣味的方式傳遞。'
+  },
+  {
+    id: 'rabbit-birthday',
+    title: '兔年生日卡',
+    titleEn: 'Year of Rabbit Birthday Card',
+    categories: ['graphic'],
+    categoryLabel: 'Graphic Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/rabbit-birthday.jpg',
+    images: [{ src: 'images/rabbit-birthday.jpg', caption: '兔年生日卡：以幸運餅乾籤詩為概念，協力車象徵一起前進。' }],
+    concept: '延伸生肖賀卡的創作精神，以每個生肖的特色發想生日主題設計，兼具個人情感與祝福意涵，讓生日卡片成為獨特且有溫度的禮物。'
+  },
+  {
+    id: 'dragon-birthday',
+    title: '龍年生日卡',
+    titleEn: 'Year of Dragon Birthday Card',
     categories: ['graphic'],
     categoryLabel: 'Graphic Design',
     tool: 'Adobe Illustrator',
     cover: 'images/dragon-birthday.jpg',
-    images: [
-      { src: 'images/rabbit-birthday.jpg', caption: '兔年生日卡：以幸運餅乾籤詩為概念，協力車象徵一起前進。' },
-      { src: 'images/dragon-birthday.jpg', caption: '龍年生日卡：以恐龍寶寶概念設計，破蛋而出象徵生日快樂。' },
-      { src: 'images/snake-birthday.jpg',  caption: '蛇年生日卡：延伸貪食蛇遊戲，以復古遊戲機像素感呈現。' },
-      { src: 'images/horse-birthday.png',  caption: '馬年生日卡：在禮物包裡填上想要的禮物，象徵「馬上有錢」。' }
-    ],
+    images: [{ src: 'images/dragon-birthday.jpg', caption: '龍年生日卡：以恐龍寶寶概念設計，破蛋而出象徵生日快樂。' }],
+    concept: '延伸生肖賀卡的創作精神，以每個生肖的特色發想生日主題設計，兼具個人情感與祝福意涵，讓生日卡片成為獨特且有溫度的禮物。'
+  },
+  {
+    id: 'snake-birthday',
+    title: '蛇年生日卡',
+    titleEn: 'Year of Snake Birthday Card',
+    categories: ['graphic'],
+    categoryLabel: 'Graphic Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/snake-birthday.jpg',
+    images: [{ src: 'images/snake-birthday.jpg', caption: '蛇年生日卡：延伸貪食蛇遊戲，以復古遊戲機像素感呈現。' }],
+    concept: '延伸生肖賀卡的創作精神，以每個生肖的特色發想生日主題設計，兼具個人情感與祝福意涵，讓生日卡片成為獨特且有溫度的禮物。'
+  },
+  {
+    id: 'horse-birthday',
+    title: '馬年生日卡',
+    titleEn: 'Year of Horse Birthday Card',
+    categories: ['graphic'],
+    categoryLabel: 'Graphic Design',
+    tool: 'Adobe Illustrator',
+    cover: 'images/horse-birthday.png',
+    images: [{ src: 'images/horse-birthday.png', caption: '馬年生日卡：在禮物包裡填上想要的禮物，象徵「馬上有錢」。' }],
     concept: '延伸生肖賀卡的創作精神，以每個生肖的特色發想生日主題設計，兼具個人情感與祝福意涵，讓生日卡片成為獨特且有溫度的禮物。'
   },
   {
