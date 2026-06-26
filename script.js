@@ -198,7 +198,13 @@ const projects = [
     duration: '1:04',
     videoId: 'L7ukon4Gx9Y',
     isVideo: true, noEmbed: true,
-    concept: '結合 AI 影像生成、版面設計、動態效果與音樂剪輯，製作 Osense 品牌官網形象影片，完整呈現公司服務與品牌視覺識別。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'Osense' },
+      { h: 'Role', p: 'Storyboard\nAI Image Generation\nAI Video Generation\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '製作 Osense 品牌官網形象影片，需完整呈現公司服務與品牌視覺識別。' },
+      { h: 'Solution', p: '構思公司所有服務內容並結合 AI 圖片與影像生成進行製作，包含所有排版與動態視覺，以活潑但不失專業的感覺呈現。' }
+    ]
   },
   {
     id: 'osense-event-visual',
@@ -210,31 +216,50 @@ const projects = [
     duration: '0:11',
     videoId: 'QCuWfqN9wJQ',
     isVideo: true, noEmbed: true,
-    concept: '運用 AI 生成結合動態效果與音樂剪輯，快速製作符合品牌調性的活動主視覺動態素材。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'Osense' },
+      { h: 'Role', p: 'Draw Illustrations\nStoryboard\nAI Image Generation\nAI Video Generation\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '製作 Osense 活動宣傳影片。' },
+      { h: 'Solution', p: '運用 AI 生成結合動態效果與音樂剪輯，製作符合品牌調性的活動宣傳影片。' }
+    ]
   },
   {
     id: 'taoyuan-logistics-pitch',
-    title: '桃園物流提案影片',
-    titleEn: 'Taoyuan Logistics Pitch Video',
+    title: '桃勤手推車比案影片',
+    titleEn: 'Taoyuan Airport Cart Services Pitch Video',
     categories: ['motion'],
     categoryLabel: 'MG Animation',
     tool: 'After Effects · Premiere Pro',
     duration: '1:23',
     videoId: 'inv_u87vmfM',
     isVideo: true, noEmbed: true,
-    concept: '結合版面設計、影片剪輯與 MG 動態物件，製作桃園物流手推車服務提案影片，最終成功獲得合作專案。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'Osense' },
+      { h: 'Role', p: 'Draw Illustrations\nStoryboard\nMotion Design\nAnimation\nVideo Editing' },
+      { h: 'Challenge', p: '製作桃勤手推車服務提案影片。' },
+      { h: 'Solution', p: '結合版面設計、影片剪輯與 MG 動態物件，製作桃勤手推車服務提案影片。' },
+      { h: 'Result', p: '成功獲得合作專案。' }
+    ]
   },
   {
     id: 'jumbo-ad',
-    title: 'Jumbo 廣告影片',
-    titleEn: 'Jumbo Advertising Spot',
+    title: '巨匠廣告影片',
+    titleEn: 'Jumbo AI Virtual Spokesperson Advertisement',
     categories: ['motion'],
     categoryLabel: 'AI + Motion Design',
     tool: 'After Effects · AI 生成 · Premiere Pro',
     duration: '1:15',
     videoId: 'fxNLl3-1pRE',
     isVideo: true, noEmbed: true,
-    concept: '整合版面設計、影片剪輯、AI 生成素材與動態效果，為 Jumbo 品牌打造完整的廣告形象影片。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: '巨匠' },
+      { h: 'Role', p: 'Layout\nStoryboard\nAI Image Generation\nAI Video Generation\nMotion Design\nAnimation\nVideo Editing' },
+      { h: 'Challenge', p: '為巨匠的 AI 虛擬代言人製作廣告宣傳片。' },
+      { h: 'Solution', p: '整合版面設計、影片剪輯、AI 生成素材與動態效果，為巨匠品牌打造 AI 虛擬代言人的廣告形象影片。' }
+    ]
   },
   {
     id: 'virtual-person-intro',
@@ -246,7 +271,13 @@ const projects = [
     duration: '0:10',
     videoId: 'XPU-DT08E24',
     isVideo: true,
-    concept: '結合 AI 生成技術與動態效果，製作虛擬人形象介紹短片，展示 AI SaaS 產品的核心功能與品牌視覺個性。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'Osense' },
+      { h: 'Role', p: 'Storyboard\nAI Image Generation\nAI Video Generation\nMotion Design\nAnimation\nVideo Editing' },
+      { h: 'Challenge', p: '製作 Osense 虛擬人介紹影片。' },
+      { h: 'Solution', p: '結合 AI 生成技術與動態效果，製作虛擬人形象介紹短片，展示 AI SaaS 產品的核心功能與品牌視覺個性。' }
+    ]
   },
   {
     id: 'ovideo-guide',
@@ -258,43 +289,68 @@ const projects = [
     duration: '0:16',
     videoId: 'QYM8ZaxZlfo',
     isVideo: true,
-    concept: '以插畫風格結合動態效果，製作 OVideo 網站功能導覽影片，以清晰易懂的視覺語言引導用戶了解產品操作流程。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'Osense OVideo' },
+      { h: 'Role', p: 'Draw Illustrations\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '以清晰易懂的視覺語言引導用戶了解產品操作流程。' },
+      { h: 'Solution', p: '以插畫風格結合動態效果製作，告別傳統式螢幕錄影操作。' },
+      { h: 'Result', p: '用戶能清楚了解操作流程。' }
+    ]
   },
   {
     id: 'maixiang-newyear',
-    title: '麥鄉新年動態',
-    titleEn: 'Maixiang New Year Motion Graphics',
+    title: '麥香新年廣告',
+    titleEn: 'Maixiang New Year Advertisement',
     categories: ['motion'],
     categoryLabel: 'MG Animation',
     tool: 'After Effects · Adobe Illustrator',
     duration: '0:06',
     videoId: 'ydXEb6S1vCs',
     isVideo: true,
-    concept: '為麥鄉品牌製作新年節慶動態圖卡，以活潑的 MG 動畫語言傳遞品牌溫度與節日祝福，適用於社群媒體投放。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為麥香品牌製作新年節慶動態圖卡。' },
+      { h: 'Solution', p: '以活潑的 MG 動畫語言傳遞品牌溫度與節日祝福。' }
+    ]
   },
   {
     id: 'maixiang-midautumn',
-    title: '麥鄉中秋節動態',
-    titleEn: 'Maixiang Mid-Autumn Festival Motion',
+    title: '麥香中元節廣告',
+    titleEn: 'Maixiang Ghost Festival Advertisement',
     categories: ['motion'],
     categoryLabel: 'MG Animation',
     tool: 'After Effects · Adobe Illustrator',
     duration: '0:06',
     videoId: 'JOurqgiGhsc',
     isVideo: true,
-    concept: '為麥鄉品牌製作中秋節節慶動態素材，融入傳統節日元素與品牌色彩語言，打造具品牌一致性的節日視覺內容。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為麥香品牌製作中元節慶動態圖卡。' },
+      { h: 'Solution', p: '融入傳統節日元素與品牌色彩語言，打造具品牌一致性的節日視覺內容。' }
+    ]
   },
   {
     id: 'maixiang-lunar',
-    title: '麥鄉農曆新年賀卡動態',
-    titleEn: 'Maixiang Lunar New Year Card',
+    title: '麥香農曆新年廣告',
+    titleEn: 'Maixiang Lunar New Year Advertisement',
     categories: ['motion'],
     categoryLabel: 'MG Animation',
     tool: 'After Effects · Adobe Illustrator',
     duration: '0:06',
     videoId: 'htVZ1FF5D38',
     isVideo: true,
-    concept: '製作農曆新年電子賀卡動態，以 MG 動畫展現品牌祝福語與視覺元素，配合節日氛圍傳遞溫馨感。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為麥香品牌製作中元節慶動態圖卡。' },
+      { h: 'Solution', p: '以動畫展現品牌祝福與視覺元素，配合節日氛圍傳遞溫馨感。' }
+    ]
   },
   {
     id: 'riverside-opening',
@@ -306,7 +362,13 @@ const projects = [
     duration: '0:06',
     videoId: 'hgYOCJM0BJU',
     isVideo: true,
-    concept: '為河岸音樂節製作活動開場動畫，以充滿能量的視覺節奏呼應音樂節奏，打造活動現場的視覺氛圍。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為河岸音樂季製作活動開場動畫。' },
+      { h: 'Solution', p: '以充滿能量的視覺節奏呼應音樂節奏，打造活動的熱鬧視覺氛圍。' }
+    ]
   },
   {
     id: 'ximas-far-eastern',
@@ -318,7 +380,13 @@ const projects = [
     duration: '0:06',
     videoId: 'jJcD6yabln4',
     isVideo: true,
-    concept: '為新北聖誕活動製作遠東百貨贊助感謝動態賀卡，融合品牌識別與節慶元素，兼顧贊助方形象與活動視覺一致性。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為新北聖誕活動製作遠東百貨贊助感謝動態賀卡。' },
+      { h: 'Solution', p: '融合品牌識別與新北耶誕 ID 角色，兼顧贊助方形象與活動視覺一致性。' }
+    ]
   },
   {
     id: 'ximas-children',
@@ -330,7 +398,13 @@ const projects = [
     duration: '0:11',
     videoId: 'aebNaiq7Y6I',
     isVideo: true,
-    concept: '為新北聖誕活動製作兒童版動態視覺，以輕快活潑的 MG 動畫語言吸引親子族群。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為新北聖誕活動製作童趣活動的動態視覺。' },
+      { h: 'Solution', p: '以輕快活潑的動畫語言吸引親子族群，並融合新北耶誕 ID 角色讓活動視覺一致。' }
+    ]
   },
   {
     id: 'dajia-mazu',
@@ -342,7 +416,13 @@ const projects = [
     duration: '0:11',
     videoId: 'Wp4XLtqw_gI',
     isVideo: true,
-    concept: '以 MG 動畫形式製作大甲媽祖活動宣傳廣告，融合傳統宗教文化與現代動態設計語言。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為大甲媽製作活動宣傳廣告。' },
+      { h: 'Solution', p: '以 MG 動畫形式製作大甲媽活動宣傳廣告，融合傳統宗教文化與現代動態設計語言。' }
+    ]
   },
   {
     id: 'far-eastern-time',
@@ -354,7 +434,13 @@ const projects = [
     duration: '0:06',
     videoId: 'LJP5fKmBMk8',
     isVideo: true,
-    concept: '為遠東品牌製作主題動態賀卡，以時間流逝為視覺概念，結合品牌調性設計具有儀式感的動態祝福素材。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '為遠東品牌製作主題動態賀卡。' },
+      { h: 'Solution', p: '融合品牌識別與新北耶誕 ID 角色，兼顧贊助方形象與活動視覺一致性。' }
+    ]
   },
   {
     id: 'taitung-countdown',
@@ -366,7 +452,13 @@ const projects = [
     duration: '0:31',
     videoId: 'B8JUm1B9YUQ',
     isVideo: true,
-    concept: '剪輯製作 2023 台東跨年倒數活動宣傳影片，整合活動亮點、現場氛圍與倒數視覺，為活動預熱吸引觀眾參與。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '製作 2023 台東跨年的卡司宣傳影片。' },
+      { h: 'Solution', p: '整合活動亮點、卡司與主視覺視覺，為活動製作吸引觀眾參與的宣傳影片。' }
+    ]
   },
   {
     id: 'tainan-goodyoung-2022',
@@ -378,7 +470,13 @@ const projects = [
     duration: '0:16',
     videoId: 'mtDihSB-Ulw',
     isVideo: true,
-    concept: '製作 2022 台南好Young 活動宣傳短片，以年輕活力為核心調性，快速呈現活動特色與亮點。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '製作 2022 台南好 Young 的卡司宣傳影片。' },
+      { h: 'Solution', p: '以年輕活力為核心調性，快速呈現活動特色與亮點。' }
+    ]
   },
   {
     id: 'rock-taichung',
@@ -390,7 +488,13 @@ const projects = [
     duration: '0:31',
     videoId: 'Te27bw_hEVs',
     isVideo: true,
-    concept: '製作搖滾台中活動演出陣容特輯影片，以搖滾視覺風格呈現卡司陣容，為音樂活動製造期待感與話題性。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Layout\nStoryboard\nMotion Design\nAnimation\nVideo Editing' },
+      { h: 'Challenge', p: '製作搖滾台中活動演出陣容的宣傳影片。' },
+      { h: 'Solution', p: '以搖滾視覺風格呈現卡司陣容，為音樂活動製造期待感與話題性。' }
+    ]
   },
   {
     id: 'wanjinshi-marathon',
@@ -402,19 +506,31 @@ const projects = [
     duration: '0:21',
     videoId: 'BDFLAAmfSJA',
     isVideo: true,
-    concept: '製作萬金石馬拉松賽事宣傳影片，捕捉運動熱情與自然景觀之美，以動感節奏激勵參賽者。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Layout\nStoryboard\nMotion Design\nAnimation\nVideo Editing' },
+      { h: 'Challenge', p: '製作萬金石馬拉松賽事的宣傳影片。' },
+      { h: 'Solution', p: '結合萬金石的主視覺，以節奏與動態製作出富有激勵參賽者與宣傳大自然景觀之美的影片。' }
+    ]
   },
   {
     id: 'evergreen-marine',
-    title: '長榮海運',
-    titleEn: 'Evergreen Marine Corporation',
+    title: '長榮氣象卡',
+    titleEn: 'EVA Air Weather Card',
     categories: ['motion'],
     categoryLabel: 'Advertising Production',
     tool: 'Premiere Pro · After Effects',
     duration: '0:16',
     videoId: 't9g8vzd7MSA',
     isVideo: true,
-    concept: '為長榮海運製作品牌形象宣傳短片，以穩健大氣的視覺風格展現企業實力。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 長榮電視廣告' },
+      { h: 'Role', p: 'Layout\nStoryboard\nMotion Design\nAnimation\nVideo Editing' },
+      { h: 'Challenge', p: '製作長榮航空的氣象卡廣告。' },
+      { h: 'Solution', p: '以色彩鮮明與活潑的排版方式進行製作，展現長榮航空的品牌形象與關懷。' }
+    ]
   },
   {
     id: 'tainan-goodyoung-ximas-2024',
@@ -426,7 +542,13 @@ const projects = [
     duration: '0:16',
     videoId: 'Wr2COxNGBtI',
     isVideo: true,
-    concept: '製作 2024 台南好Young 聖誕節宣傳短片，融合在地特色與節慶氛圍，呼應品牌年輕化定位。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '製作 2024 台南好Young 聖誕活動宣傳短片。' },
+      { h: 'Solution', p: '以年輕活力為主要風格，融合節慶氛圍製作，為活動製造期待感與話題性。' }
+    ]
   },
   {
     id: 'tainan-goodyoung-ximas-2023',
@@ -438,7 +560,13 @@ const projects = [
     duration: '0:21',
     videoId: 'yaoeQNmRZ80',
     isVideo: true,
-    concept: '製作 2023 台南好Young 聖誕節宣傳影片，整合活動資訊與視覺風格，建立年度聖誕活動的視覺識別延續性。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Illustration Breakdown\nLayout\nStoryboard\nMotion Design\nAnimation' },
+      { h: 'Challenge', p: '製作 2023 台南好Young 聖誕活動宣傳短片。' },
+      { h: 'Solution', p: '以年輕活力為主要風格，融合節慶氛圍製作，為活動製造期待感與話題性。' }
+    ]
   },
   {
     id: 'blueseeds-futong',
@@ -450,7 +578,13 @@ const projects = [
     duration: '0:31',
     videoId: '8ev8H5HIjU4',
     isVideo: true,
-    concept: '剪輯藍種子富桐花園活動精華影片，以景觀之美為核心，透過鏡頭語言傳遞空間氛圍與活動溫度。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'Blueseeds 芙彤園' },
+      { h: 'Role', p: 'Storyboard\nVideo Editing' },
+      { h: 'Challenge', p: '剪輯 Blueseeds 芙彤園品牌形象影片。' },
+      { h: 'Solution', p: '融合景觀之美與產品為核心，透過鏡頭語言傳遞空間氛圍與產品溫度。' }
+    ]
   },
   {
     id: 'wanjinshi-clean-run',
@@ -462,7 +596,13 @@ const projects = [
     duration: '0:31',
     videoId: 'up3dfZbN4U4',
     isVideo: true,
-    concept: '剪輯萬金石淨街跑活動紀錄影片，結合公益理念與運動熱情，呈現參與者的能量與精神。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Storyboard\nVideo Editing' },
+      { h: 'Challenge', p: '剪輯萬金石淨街跑活動紀錄影片。' },
+      { h: 'Solution', p: '剪輯萬金石淨街跑活動紀錄影片，結合公益理念與運動熱情，呈現參與者的能量與精神。' }
+    ]
   },
   {
     id: 'riverside-highlights',
@@ -474,7 +614,13 @@ const projects = [
     duration: '0:46',
     videoId: 'UQ-L1XISks4',
     isVideo: true,
-    concept: '剪輯河岸音樂節活動精華，以快節奏手法捕捉現場音樂能量，傳遞觀眾與表演者之間的熱情互動。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Storyboard\nVideo Editing' },
+      { h: 'Challenge', p: '剪輯河海音樂季活動精華。' },
+      { h: 'Solution', p: '以快節奏捕捉現場音樂能量，傳遞觀眾與表演者之間的熱情互動。' }
+    ]
   },
   {
     id: 'riverside-metro-aerial',
@@ -486,7 +632,13 @@ const projects = [
     duration: '1:01',
     videoId: 'nlxNHNNXPbk',
     isVideo: true,
-    concept: '結合空拍影像與現場剪輯，呈現河岸音樂節都會區場地的壯觀規模與活動氛圍。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Storyboard\nVideo Editing' },
+      { h: 'Challenge', p: '剪輯河海音樂季活動精華。' },
+      { h: 'Solution', p: '以空拍影像進行剪輯，呈現河岸音樂季場地的壯觀規模與活動氛圍。' }
+    ]
   },
   {
     id: 'riverside-metro',
@@ -498,7 +650,13 @@ const projects = [
     duration: '0:46',
     videoId: '08iFlX-Y5us',
     isVideo: true,
-    concept: '剪輯河岸音樂節都會區場地精華片段，以都市景觀為背景，呈現音樂活動在城市空間的獨特魅力。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Storyboard\nVideo Editing' },
+      { h: 'Challenge', p: '剪輯河海音樂季活動精華。' },
+      { h: 'Solution', p: '以都市景觀為背景，呈現音樂活動在城市空間的獨特魅力。' }
+    ]
   },
   {
     id: 'riverside-aerial',
@@ -510,7 +668,13 @@ const projects = [
     duration: '3:01',
     videoId: 'nGfSH-G3jPc',
     isVideo: true,
-    concept: '以空拍視角完整記錄河岸音樂節，以壯闊的鳥瞰構圖呈現活動規模，兼具紀錄片與形象影片的視覺品質。'
+    concept: '',
+    sections: [
+      { h: 'Client', p: 'TVBS 電視廣告' },
+      { h: 'Role', p: 'Storyboard\nMotion Design\nVideo Editing' },
+      { h: 'Challenge', p: '剪輯河海音樂季活動精華。' },
+      { h: 'Solution', p: '以空拍視角完整記錄河岸音樂季，以壯闊的鳥瞰構圖呈現活動規模，兼具紀錄片與形象影片的視覺品質。' }
+    ]
   },
 
   /* ── UI Design ────────────────────────────────────────────── */
@@ -803,7 +967,8 @@ function openModal(id) {
   modalTitleZh.textContent = p.title;
   modalTitleEn.textContent = p.titleEn;
   modalTool.textContent    = p.tool;
-  modalConcept.textContent = p.concept;
+  modalConcept.textContent = p.concept || '';
+  modalConcept.style.display = p.concept ? '' : 'none';
 
   modalSects.innerHTML = '';
   if (p.sections && p.sections.length) {
@@ -830,7 +995,7 @@ function openModal(id) {
     } else {
       modalIframeWrap.style.display = '';
       modalYtFacade.classList.remove('show');
-      modalIframe.src = `https://www.youtube.com/embed/${p.videoId}?autoplay=1&rel=0&modestbranding=1`;
+      modalIframe.src = `https://www.youtube.com/embed/${p.videoId}?autoplay=1&rel=0&modestbranding=1&enablejsapi=1`;
     }
   } else {
     modalVidWrap.classList.remove('show');
@@ -939,6 +1104,23 @@ document.addEventListener('keydown', e => {
     if (e.key === 'ArrowLeft')  showImage(currentImgIdx - 1);
     if (e.key === 'ArrowRight') showImage(currentImgIdx + 1);
   }
+});
+
+// Auto-fallback when YouTube rejects embedding (Error 101/150/153)
+window.addEventListener('message', function(e) {
+  if (e.origin !== 'https://www.youtube.com') return;
+  try {
+    const d = JSON.parse(e.data);
+    if (d.event === 'onError' && (d.info === 101 || d.info === 150)) {
+      if (!currentProject) return;
+      const ytUrl = `https://www.youtube.com/watch?v=${currentProject.videoId}`;
+      modalIframeWrap.style.display = 'none';
+      modalYtFacade.classList.add('show');
+      modalYtFacadeImg.src = `https://img.youtube.com/vi/${currentProject.videoId}/maxresdefault.jpg`;
+      modalYtFacadeImg.onerror = function() { this.src = `https://img.youtube.com/vi/${currentProject.videoId}/hqdefault.jpg`; };
+      modalYtFacadeBtn.href = ytUrl;
+    }
+  } catch(e) {}
 });
 
 /* ============================================================
